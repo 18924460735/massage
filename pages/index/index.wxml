@@ -1,0 +1,17 @@
+<view>
+  <swiper autoplay="true" indicator-dots="true" circular="true" indicator-color="while"  indicator-active-color="#f6f641">
+    <swiper-item><image mode="widthFix" src="/images/1.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="/images/2.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="/images/3.jpg"/></swiper-item>
+  </swiper>
+</view>
+<view >
+  <scroll-view scroll-x="true" class="scroll-wrap">
+    <view class="srcoll-item active">按法</view>
+    <view class="srcoll-item">揉法</view>
+    <view class="srcoll-item">推法</view>
+    <view class="srcoll-item">摩法</view>
+    <view class="srcoll-item">擦法</view>
+    <view class="srcoll-item">拿法</view>
+  </scroll-view>
+</view>

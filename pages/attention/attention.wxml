@@ -1,0 +1,5 @@
+<!--pages/attention/attention.wxml-->
+<view class="warp">
+  <text>{{attention}}</text>
+</view>
+  <button class="mini confirm-btn" bind:tap="handledir">同意</button>

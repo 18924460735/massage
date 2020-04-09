@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/acupoint/acupoint",
+    "pages/attention/attention",
+    "pages/dis/dis"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "摩法师",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#f6f641",
+    "backgroundColor": "#D1BA74",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home_.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/acupoint/acupoint",
+        "text": "讨论区",
+        "iconPath": "images/acupoint_.png",
+        "selectedIconPath": "images/acupoint.png"
+      },
+      {
+        "pagePath": "pages/dis/dis",
+        "text": "讨论区",
+        "iconPath": "images/dis_.png",
+        "selectedIconPath": "images/dis.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
